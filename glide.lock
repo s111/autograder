@@ -1,0 +1,144 @@
+hash: e215d6fe536e5c4777c17b1fc1b33ddd2d753acb36b391016a0192eacf8735ce
+updated: 2017-06-19T17:03:04.340500334+02:00
+imports:
+- name: github.com/autograde/antiplagiarism
+  version: 5ae392ce67464b3ec1d7d8e7930661feba4a4445
+  subpackages:
+  - common
+  - proto
+- name: github.com/autograde/kit
+  version: a73d6e4edbb5b5ff512acc020205f9a6dfd952e0
+  subpackages:
+  - score
+- name: github.com/Azure/go-ansiterm
+  version: fa152c58bc15761d0200cb75fe958b89a9d4888e
+  subpackages:
+  - winterm
+- name: github.com/boltdb/bolt
+  version: 583e8937c61f1af6513608ccc75c97b6abdf4ff9
+- name: github.com/docker/docker
+  version: 630b9a45d2537a21fa5ba3249a3c780d2b6a00fc
+  subpackages:
+  - api/types
+  - api/types/blkiodev
+  - api/types/container
+  - api/types/filters
+  - api/types/mount
+  - api/types/network
+  - api/types/registry
+  - api/types/strslice
+  - api/types/swarm
+  - api/types/versions
+  - opts
+  - pkg/archive
+  - pkg/fileutils
+  - pkg/homedir
+  - pkg/idtools
+  - pkg/ioutils
+  - pkg/jsonlog
+  - pkg/jsonmessage
+  - pkg/longpath
+  - pkg/mount
+  - pkg/pools
+  - pkg/promise
+  - pkg/stdcopy
+  - pkg/system
+  - pkg/term
+  - pkg/term/windows
+- name: github.com/docker/go-connections
+  version: e15c02316c12de00874640cd76311849de2aeed5
+  subpackages:
+  - nat
+- name: github.com/docker/go-units
+  version: 0dadbb0345b35ec7ef35e228dabb8de89a65bf52
+- name: github.com/fsouza/go-dockerclient
+  version: 9e921e30db8bcc1221fa0485ad9ce5b195fb4445
+- name: github.com/golang/protobuf
+  version: e325f446bebc2998605911c0a2650d9920361d4a
+  subpackages:
+  - proto
+- name: github.com/google/go-github
+  version: 2ec691a35b10b8c1471955a96d0f182a572e1cad
+  subpackages:
+  - github
+- name: github.com/google/go-querystring
+  version: 53e6ce116135b80d037921a7fdd5138cf32d7a8a
+  subpackages:
+  - query
+- name: github.com/gorilla/context
+  version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
+- name: github.com/gorilla/securecookie
+  version: e59506cc896acb7f7bf732d4fdf5e25f7ccd8983
+- name: github.com/gorilla/sessions
+  version: ca9ada44574153444b00d3fd9c8559e4cc95f896
+- name: github.com/hashicorp/go-cleanhttp
+  version: 3573b8b52aa7b37b9358d966a898feb387f62437
+- name: github.com/Microsoft/go-winio
+  version: f533f7a102197536779ea3a8cb881d639e21ec5a
+- name: github.com/Nvveen/Gotty
+  version: cd527374f1e5bff4938207604a14f2e38a9cf512
+- name: github.com/opencontainers/go-digest
+  version: 279bed98673dd5bef374d3b6e4b09e2af76183bf
+- name: github.com/opencontainers/image-spec
+  version: d207df434d113728dc3373cb3a905f00b482a858
+  subpackages:
+  - specs-go
+  - specs-go/v1
+- name: github.com/opencontainers/runc
+  version: c995ee407bdd9b2c3f649b42527fe3e02894096e
+  subpackages:
+  - libcontainer/system
+  - libcontainer/user
+- name: github.com/pkg/errors
+  version: c605e284fe17294bda444b34710735b29d1a9d90
+- name: github.com/Sirupsen/logrus
+  version: ba1b36c82c5e05c4f912a88eab0dcd91a171688f
+- name: golang.org/x/net
+  version: 973f3f3bbd50e92b13faa6c53ec16f49b45e851c
+  subpackages:
+  - context
+  - context/ctxhttp
+  - http2
+  - http2/hpack
+  - idna
+  - internal/timeseries
+  - lex/httplex
+  - trace
+- name: golang.org/x/oauth2
+  version: f047394b6d14284165300fd82dad67edb3a4d7f6
+  subpackages:
+  - internal
+- name: golang.org/x/sys
+  version: fb4cac33e3196ff7f507ab9b2d2a44b0142f5b5a
+  subpackages:
+  - unix
+  - windows
+- name: golang.org/x/text
+  version: 9e2f80a6ba7ed4ba13e0cd4b1f094bf916875735
+  subpackages:
+  - secure/bidirule
+  - transform
+  - unicode/bidi
+  - unicode/norm
+- name: google.golang.org/appengine
+  version: a2f4131514e563cedfdb6e7d267df9ad48591e93
+  subpackages:
+  - internal
+  - internal/base
+  - internal/datastore
+  - internal/log
+  - internal/remote_api
+  - internal/urlfetch
+  - urlfetch
+- name: google.golang.org/grpc
+  version: 13edeeffdea7a41d5aad96c28deb4c7bd01a9397
+  subpackages:
+  - codes
+  - credentials
+  - grpclog
+  - internal
+  - metadata
+  - naming
+  - peer
+  - transport
+testImports: []
