@@ -22,6 +22,7 @@ var (
 	help         = flag.Bool("help", false, "List the startup options for the autograder.")
 	configfile   = flag.String("configfile", "", "Path to a custom config file location. Used when a config file not stored in the standard file location is prefered.")
 	basepath     = flag.String("basepath", "", "A custom file path for storing autograder files.")
+	port         = flag.Int("port", 8080, "Run server on this port.")
 )
 
 func main() {
@@ -124,7 +125,7 @@ func main() {
 	// starts up the webserver
 	log.Println("Server starting")
 
-	server := web.NewServer(80)
+	server := web.NewServer(*port)
 	server.Start()
 
 	// Prevent main from returning immediately. Wait for interrupt.
